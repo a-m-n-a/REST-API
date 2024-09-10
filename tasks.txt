@@ -1,0 +1,17 @@
+REST API - JSON
+
+GET /users - list all users in html document for web browsers
+GET /api/users - list all users JSON for mobile apps or for both mobile apps and web browsers
+
+GET /users/1 - list the user with ID 1
+GET /users/2 - list the user with ID 2
+
+Dynamic PATH parameters
+/api/users/:id
+:id -> variable
+
+POST /users - create a new user
+
+PATCH /users/1 - update user with ID 1
+
+DELETE /users/1 - delete user with ID 1
