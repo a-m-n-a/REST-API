@@ -1,0 +1,3 @@
+Shcema - the structure
+      Schema - Model
+           using model we perform CRUD operations
